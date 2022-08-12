@@ -1,10 +1,5 @@
-# Getting Started
+策略模式的demo
 
-### Reference Documentation
+定义一个父类的接口，统一的入口，利用spring的serviceMap自动注入service，并根据不同的策略，进入到不同的service实现
 
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.7.2/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.7.2/maven-plugin/reference/html/#build-image)
-
+service名字规范的话,在map里面是首字母小写的，当然也可以用@Component自己定义
